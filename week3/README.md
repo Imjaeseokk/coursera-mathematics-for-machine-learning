@@ -37,13 +37,13 @@ Link to [Course](https://www.coursera.org/learn/linear-algebra-machine-learning)
 1차 시기에는 50점, 커트라인은 40점으로 통과 가능했으나
 재시험에 응시하여 87.5점 Pass
 
-![alt text](..\Images\week3_image1.png)
+![alt text](.\Images\week3_image1.png)
 
 ### 2. Solving some simultaneous equations
 간단한 선형연립방정식, 늦은 밤에 암산으로 푸느라 스트레스 받았지만 다행히 100점 Pass
 
-![alt text](..\Images\week3_image2.png)
+![alt text](.\Images\week3_image2.png)
 
-![alt text](..\Images\week3_image3.png)
+![alt text](.\Images\week3_image3.png)
 
 
