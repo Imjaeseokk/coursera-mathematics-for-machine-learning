@@ -47,3 +47,38 @@ Link to [Course](https://www.coursera.org/learn/linear-algebra-machine-learning)
 ![alt text](../Images/week3_image3.png)
 
 
+## Operations with vectors
+일반적으로 `Vector`는 *공간에서의 움직임*을 나타내는 Object라고 생각할 수 있다. 여기서 말하는 공간은 물리적인 공간뿐 아니라, **데이터**를 나타내는 공간일 수도 있다.
+
+### Vector operations
+`Vector`는 다음 두 가지 연산 규칙을 만족해야 함
+1. Vector Addition
+   - 두 Vector r과 s의 덧셈은
+   - v의 끝 점에 s를 연결하여 나타냄
+   - 교환 법칙을 만족함
+2. Scalar Multiplication
+   - Vector에 숫자를 곱하여 길이를 조정할 수 있음
+   - 양의 Scalar는 길이를 배수만큼 늘리고
+   - 음의 Scalar는 방향을 반대로 바꿈
+
+```makefile
+r = [3, 2], s = [-1, 2] 일 때,
+
+r + s = [3 + (-1), 2 + 2] = [2, 4]
+r - s = [3 - (-1), 2 - 2] = [4, 0]
+
+r - s = r + (-1)*s
+
+(r + s) + t = r + (s + t)
+```
+
+### Basis vectors
+벡터 연산을 편리하게 하기 위해서는 Coordinate system을 설정하는 것이 유용하다. 좌표계는 일반적으로 기저 벡터(Basis vectors)를 사용하여 구성된다.
+- i: 수평 방향으로 길이가 1인 벡터
+- j: 수직 방향으로 길이가 1인 벡터
+
+## Practice Assignment
+### Doing some vector operations
+
+간단한 사칙연산, 쉽게 Pass
+![alt text](../Images/week4_image1.png)
